@@ -1,0 +1,5 @@
+(defun average (lst)
+  (let ((sum 0))
+    (dolist (int lst)
+      (setf sum (+ sum int)))
+    (/ sum (length lst))))

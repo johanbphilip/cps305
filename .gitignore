@@ -1,0 +1,11 @@
+# Ignore Emacs backup files
+*.lisp~
+
+# Ignore Common Lisp compiled files
+*.fasl
+
+# Ignore codegrader folder
+codegrader/
+
+# Ignore macOS system files
+.DS_Store
